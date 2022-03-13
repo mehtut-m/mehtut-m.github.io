@@ -1348,11 +1348,9 @@ body {
   cursor: pointer;
 }
 
-
-@media (min-width: 992px) {
-  .portfolio-img img {
+@media only screen and (min-width: 770px) {
+  .portfolio-img > img {
   height: 100%
-}
 }
 
 /* Testimonial
