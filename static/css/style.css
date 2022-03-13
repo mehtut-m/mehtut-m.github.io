@@ -1348,6 +1348,13 @@ body {
   cursor: pointer;
 }
 
+
+@media (min-width: 992px) {
+  .portfolio-img img {
+  height: 100%
+}
+}
+
 /* Testimonial
 ---------------------*/
 .testimonial-col {
